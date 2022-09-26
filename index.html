@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <script
+  src="https://kit.fontawesome.com/4c536a6bd5.js"
+  crossorigin="anonymous">
+  </script>
+ <link rel="stylesheet" href="style.css">
+ <!-- <script src="./script.js"></script> -->
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Fibonacci Finder</title>
+</head>
+<body>
+<header>
+ <h1>Fibonacci Finder</h1>
+</header>
+ <div class="container">
+  <label for="numberField">Enter a Fibonacci Position:</label>
+  <input type="number" id="numberField" class="numberField">
+  <input type="submit" value="SUBMIT" class="submitFibonacci">
+  <input type="submit" value="RESET" class="resetFibonacci">
+
+  <div class="result">
+   <p id="fibonacciPos"></p>
+   <p id="solution"></p>
+   <p id="fibonacciNum"></p>
+  </div>
+ </div>
+ <footer id="footer">
+  <p>
+   Copyright ©
+   <script>document.write(new Date().getFullYear())</script>
+   Antonio Smith
+ </p>
+ <a href="https://github.com/thebeardeddoctor" target="_blank">
+   <i class="fab fa-github"></i
+ ></a>
+ </footer>
+ <script src="./script.js"></script>
+</body>
+</html>
